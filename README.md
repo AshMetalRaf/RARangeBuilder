@@ -14,6 +14,8 @@ Especially useful when dealing with repeated memory layouts like **arrays of str
 <sub>reset achievements in the Assets list within **RAInt** for changes to take effect</sub>
 - Real-time monitoring of loaded files for changes
 
+![Screenshot](assets/gui.png)
+
 ---
 
 ## Prerequisites
@@ -70,5 +72,6 @@ pyinstaller --onefile --windowed main.py
 
 ![WIP](https://img.shields.io/badge/status-wip-yellow)
 ## Incomplete 
+
 
 - Some condition types are not fully implemented yet but users can still generate logic strings for standard conditions.
