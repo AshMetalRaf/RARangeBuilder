@@ -3,6 +3,9 @@
 A GUI tool to generate ranged logic strings for RetroAchievements.
 Especially useful when dealing with repeated memory layouts like **arrays of structures**, and building conditions without manually adding each one.
 
+[![Release](https://img.shields.io/github/v/release/AshMetalRaf/RARangeBuilder?style=flat-square)](https://github.com/AshMetalRaf/RARangeBuilder/releases)
+[RARangeBuilder v1.0](https://github.com/AshMetalRaf/RARangeBuilder/releases/tag/v1.0)
+
 ---
 
 ## Features
@@ -75,3 +78,4 @@ pyinstaller --onefile --windowed main.py
 
 
 - Some condition types are not fully implemented yet but users can still generate logic strings for standard conditions.
+
