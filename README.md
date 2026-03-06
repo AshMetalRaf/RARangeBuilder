@@ -13,7 +13,7 @@ Especially useful when dealing with repeated memory layouts like **arrays of str
 - Add/remove **condition rows** via GUI
 - Specify **start address, end address, and offsets**
 - Automatically generate **compatible RetroAchievements logic strings** with Alt Groups support
-- Load **local achievement files** `*-User.txt` found inside `RACache/Data` and apply generated logic directly<br>
+- Load **local achievement files** `*-User.txt` found inside `RA-Cache/Data` and apply generated logic directly<br>
 <sub>reset achievements in the Assets list within **RAInt** for changes to take effect</sub>
 - Real-time monitoring of loaded files for changes
 
@@ -42,7 +42,7 @@ cd into your folder and run:
 git clone https://github.com/AshMetalRaf/RARangeBuilder.git
 ```
 ```bash
-cd RA-Range-Builder
+cd RARangeBuilder
 ```
 ```bash
 python main.py
@@ -78,4 +78,5 @@ pyinstaller --onefile --windowed main.py
 
 
 - Some condition types are not fully implemented yet but users can still generate logic strings for standard conditions.
+
 
